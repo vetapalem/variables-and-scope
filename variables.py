@@ -35,20 +35,20 @@ k,l,m,*n=ab
 # for fun in frozenset({au(),bu(),cu()}):
 #     print(fun)
 
-def power(num):
-    def find_power(p):
-        res=num**p
-        print('{} of {} is {}'.format(num,p,res))
-        return res
-    return find_power
-def main():
-    pow=power(int(input('number:-')))
-    r1=pow(int(input('number:-')))
-    # print(r1)
-# main()
-c={a:chr(a) for a in range(65,65+12)}
-d=tuple([a for a in range(10)])
-def trail(*args,**kwargs):
-    print(args,kwargs,sep='\n')
-trail(*d,**c)
+# def power(num):
+#     def find_power(p):
+#         res=num**p
+#         print('{} of {} is {}'.format(num,p,res))
+#         return res
+#     return find_power
+# def main():
+#     pow=power(int(input('number:-')))
+#     r1=pow(int(input('number:-')))
+#     # print(r1)
+# # main()
+# c={a:chr(a) for a in range(65,65+12)}
+# d=tuple([a for a in range(10)])
+# def trail(*args,**kwargs):
+#     print(args,kwargs,sep='\n')
+# trail(*d,**c)
     
